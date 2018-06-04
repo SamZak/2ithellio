@@ -24,3 +24,7 @@ hs_err_pid*
 
 .idea/
 nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/

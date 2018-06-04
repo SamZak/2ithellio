@@ -11,6 +11,19 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>
+            <fieldset>
+                <legend>Connexion</legend>
+                <form method="POST" action="Login">
+                    <label for="form-nickname">Nom de compte</label>
+                    <input id="form-nickname" type="text" name="nickname">
+
+                    <label for="form-password">Mot de passe</label>
+                    <input id="form-password" type="password" name="password">
+
+                    <input type="submit" value="Se connecter">
+                </form>
+            </fieldset>
+        </div>
     </body>
 </html>
